@@ -585,7 +585,7 @@ can_be_ifolder (NautilusFileInfo *file)
 {
 	struct soap soap;
 	gchar *folder_path;
-	gboolean b_can_be_ifolder = TRUE;
+	gboolean b_can_be_ifolder = FALSE;
 	char username[512];
 	char password[1024];
 	
@@ -617,8 +617,8 @@ can_be_ifolder (NautilusFileInfo *file)
 			}
 		} else {
 			DEBUG_IFOLDER (("***calling CanBeiFolder succeeded***\n"));
-			if (!ns1__CanBeiFolderResponse.CanBeiFolderResult)
-				b_can_be_ifolder = FALSE;
+			if (ns1__CanBeiFolderResponse.CanBeiFolderResult)
+				b_can_be_ifolder = TRUE;
 		}
 
 		cleanup_gsoap (&soap);

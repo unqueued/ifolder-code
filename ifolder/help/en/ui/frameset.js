@@ -1,3 +1,6 @@
+var recentHash="";
+var replaceStateSupport=(typeof (window.history.replaceState)=="function")?true:false;
+var webKitBased=/Konqueror|Safari|KHTML/.test(navigator.userAgent);
 function getParm(_1,_2,_3){
 if(_1.length==0){
 return "";
@@ -19,9 +22,10 @@ var f=/[\/\\]([^\/\\]+)$/.exec(_6)||[];
 f=f[1]||_6;
 return (_7==true)?f.substring(0,f.lastIndexOf(".")):f;
 }
-var recentHash="";
 function setHash(h){
-recentHash=h;
+if(replaceStateSupport==true||webKitBased==true){
+return;
+}
 var _a=window.location.hash;
 var _b=window.location.href;
 var s=window.location.search;
@@ -29,6 +33,7 @@ if(s&&s!=""){
 _b=_b.replace(s,"");
 }
 var _d=_a!=""?_b.replace(_a,h):(_b+h);
+recentHash=h;
 window.location.replace(_d);
 return false;
 }
@@ -80,7 +85,9 @@ window.topic.location.replace(_15);
 }
 function onFrameSetLoad(){
 loadTopic();
+if(replaceStateSupport==false&&webKitBased==false){
 setInterval(pollHash,1000);
+}
 }
 window.onload=onFrameSetLoad;
 

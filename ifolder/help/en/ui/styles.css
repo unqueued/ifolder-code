@@ -1,8 +1,9 @@
 body { 
-		margin-left: .2in;
+		margin-left: 18px;
+		margin-right: 18px;
 		padding:0;
 		font-family:geneva, arial, helvetica, sans-serif;
-		font-size: 75%;
+		font-size: 12px;
 		font-weight: normal;
 		color: #000000;
 		background-color: #ffffff;
@@ -10,9 +11,12 @@ body {
 
 /* headings */
 	h1,h2,h3,h4,h5,h6 {font-weight: bold; color: #000000;}
-	h1 {font-size: 150%;}
-	h2 {font-size: 120%;}
-	h3,h4,h5,h6 {font-size: 100%; margin-bottom:-1px;}
+	h1 {font-size: 160%; margin-bottom:20px;}
+	h2 {font-size: 145%; margin-top:25px;}
+	h3 {font-size: 125%; margin-top:23px;}
+	h4 {font-size: 115%; margin-top:20px;}
+	h5 {font-size: 105%; margin-top:18px;}
+	h6 {font-size: 100%; margin-top:16px;}
 	
 	/* single file heading adjustments */
 	.singlefile h1 {font-size: 185%; color: #CC0000; margin-top:10px;}
@@ -24,9 +28,10 @@ body {
 	div.sect3,div.sect4,div.sect5,div.sect6 {margin-left:18px;}
 	
 /* msgset */
-	div.msgexplan {margin: 0px 0px 7px 0px;}
-	div.msgexplan span.title {margin: 0px 7px 0px 0px; font-size: 100%; font-weight: bold; color: #000000;}
-	div.msgtext p.para {margin: 4px 0px 16px 0px; font-size: 100%; font-weight: bold; color: #b00000;}
+	div.msgtext {margin-top: 25px;}
+	div.msgexplan {margin-bottom: 7px;}
+	div.msgexplan > span.title {font-size: 100%; font-weight: bold;}
+	div.msgtext p.para {font-size: 100%; font-weight: bold; color: #b00000;}
 	
 	#tocref { display:inline; float:right; }
 
@@ -46,24 +51,27 @@ body {
 	.nav a:active { vertical-align: middle; color: gray; font-size: 100%;}
 	.nav a:hover { vertical-align: middle; color: #0000cc; font-size: 100%;}  
 
-
 /* paragraphs */	
 	p.para {font-weight: normal; color: #000000;}
 	p.msgtext {font-style: italic; font-weight: normal}
 	p.trademark {font-size: 75%; font-weight: normal; font-style: italic;}
-	pre {font-family: Courier New, monospace; margin: 10px 5px 10px 0px; padding: 1px 0px 3px 0px;font-size: 100%;font-weight: normal;}
+	p.glossterm {font-weight: bold;}
+	div.formalpara em.title {font-style: normal; font-weight: bold; color: #000000; margin:0 5px 0 0;}
+	div.formalpara p.title {font-style: normal; font-weight: normal; color: #000000;}
+	
+/* screen text */	
+	pre {font-family: Courier New, monospace; margin-bottom: 10px;font-size: 100%;font-weight: normal;}
 	pre.compact {font-size: 95%;}
 	pre.compact2,pre.screenshot {font-size: 88%;}
-	pre.screenshot { border-top:1px solid #000000; border-bottom:1px solid #000000; }
+	pre.screenshot { border-top:1px solid #000000; border-bottom:1px solid #000000; padding: 1px 0px 3px 0px;}
 	
-	p.glossterm {font-weight: bold;}
 	div.glossdef {margin:-10pt 0 0 0;}
 
 /* admonitions */	
 	div.note,
 	div.tip,
 	div.warning,
-	div.important {margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; border-bottom: 1px solid #999999; border-top: 1px solid #999999;}
+	div.important {padding: 0px 0px 0px 0px; border-bottom: 1px solid #999999; border-top: 1px solid #999999;}
 
 	div.note p:first-child,div.tip p:first-child,div.warning p:first-child,div.important p:first-child {margin-top: 5px;}
 	div.note p:last-child,div.tip p:last-child,div.warning p:last-child,div.important p:last-child {margin-bottom: 4px;}
@@ -76,37 +84,33 @@ body {
 	div.warning em.title {color: #cc0000}
 
 /* figures and images */	
-	img { max-width: 100%; }
+	img { max-width: 100%; line-height: normal;}
+	img.border { border-style:solid; border-width:1px; }
 	img.inline {vertical-align: middle;}
-	img {line-height: normal;}
-	br.img {line-height: normal;}
+	
+	div.figure,div.informalfigure { margin-bottom:20px;}
 	div.figure em.figure {font-size: 95%; font-style: normal; font-weight: bold; color: #000000; margin:5px 5px 0 0;}
 	div.figure em.title {font-family: times, serif; font-size: 95%; font-style: italic; font-weight: normal; color: #000000;}
 	div.figure p.title em.num {font-size: 95%; font-style: normal; font-weight: bold; color: #000000; margin:0 5px 0px 0;}
 	div.figure p.title {font-size: 95%; font-style: normal; font-weight: normal; color: #000000;}
-	div.informalfigure {margin:15px 0px 10px 0px;}
-	div.formalpara em.title {font-style: normal; font-weight: bold; color: #000000; margin:0 5px 0 0;}
-	div.formalpara p.title {font-style: normal; font-weight: normal; color: #000000;}
-
 	
 /* tables */
-	table {border-collapse:collapse;}
+	table {border-collapse:collapse; margin:16px 0 16px 0;}
 	div.table p.title em.num {font-size: 95%; font-style: normal; font-weight: bold; color: #000000; margin:0 5px 0px 0;}
 	div.table p.title {font-size: 95%; font-style: normal; font-weight: normal; color: #000000;}
-	div.informaltable table {margin:10px 0 7px 0;}
 
 	table tr.headerrow th {padding: 6px 4px 5px 0px;}
-	table tr td {padding: 0px 4px 0px 0px; }
-	table tr td p:first-child {margin-top: 6px;}
-	table tr td p:last-child {margin-bottom: 6px;}
+	table tr td *:first-child {margin-top: 6px;}
+	table tr td *:last-child {margin-bottom: 4px;}
+	table tr td {padding: 0px 4px 0px 0px; margin:0; }
 	
-	table tr.headerrow th p.para {font-weight: bold; margin:1px 0 0 0;}
-	table.allseps, table.rowseps, table.topbot {border-spacing: 0px; border-top:2px solid #000000; border-bottom:2px solid #606060;}
-	table.allseps tr.headerrow th,table.rowseps tr.headerrow th,table.topbot tr.headerrow th {border-bottom:2px solid #000000;}
-	table.allseps tr.headerrow th {border-left:1px solid #000000; padding-left: 5px;}
-	table.allseps tr td {border-bottom:1px solid #000000; border-left:1px solid #000000; padding-left: 5px;}
+	table tr.headerrow th p.para {font-weight: bold; margin:1px 0px 0px 0px;}
+	table.allseps, table.rowseps, table.topbot {border-spacing: 0px; border-top:1px solid #606060; border-bottom:1px solid #606060;}
+	table.allseps tr.headerrow th,table.rowseps tr.headerrow th,table.topbot tr.headerrow th {border-bottom:1px solid #606060;}
+	table.allseps tr.headerrow th {border-left:1px solid #999999; padding-left: 5px;}
+	table.allseps tr td {border-bottom:1px solid #999999; border-left:1px solid #999999; padding-left: 5px;}
 	table.allseps tr td:first-child,table.allseps tr th:first-child {border-left:0;}
-	table.rowseps tr td {border-bottom:1px solid #000000;}
+	table.rowseps tr td {border-bottom:1px solid #999999;}
 
 	table.calloutlist td {margin:0px; padding: 0px 6px 0px 0px;}
 	table.calloutlist p {margin: 5px 0px 5px 0px; padding: 0px;}
@@ -120,8 +124,8 @@ body {
 	div.itemizedlist, div.orderedlist, div.procedure, div.substeps {margin-bottom:15px; font-weight: normal;}
 	ul,ol {margin-left: 28px; padding-left: 0pt;}
 	ul.listbox  {list-style-image : url("images/checkbox.png"); list-style-type: square;}
+	ul.listbullet {list-style-type: disc; list-style-image : none;}
 	ul.listcheck  {list-style-image : url("images/checkedbox.png"); list-style-type: square;}
-	ul.listbullet  {list-style-image : url("images/diamond.png"); list-style-type: square;}
 	ul.listdash  {list-style-image : url("images/dash.png"); list-style-type: square;}
 	ul.simplelist {margin-left: 0px; list-style-type: none; list-style-image : none;padding-left: 0pt;}
 	div.orderedlist div.orderedlist > ol {list-style-type: lower-alpha;}
@@ -129,11 +133,11 @@ body {
 	div.substeps div.substeps div.substeps > ol {list-style-type:lower-alpha;}
 	div.substeps div.substeps > ol {list-style-type: decimal;}
 	div.substeps > ol {list-style-type: lower-alpha;}
-	li {margin: 5px 0 4px 0;}
+	li {margin: 5px 0px 4px 0px;}
 	li.member {margin:3px 0px 0px 10px;text-indent:-10px; font-weight: normal;}
 	li.step {font-weight: bold;color: #000000;}
-	div.procedure .title {font-size: 100%; font-weight: bold; color: #000000; margin-top: 16px;  margin-bottom: 0px;}
-	div.itemizedlist .title {font-size: 100%; font-weight: bold; color: #000000; margin-top: 16px;  margin-bottom: 0px;}
+	div.procedure .title {font-size: 100%; font-weight: bold; color: #000000; margin-top: 16px;}
+	div.itemizedlist .title {font-size: 100%; font-weight: bold; color: #000000; margin-top: 16px;}
 	
 /* italic inlines */	
 	em {font-style: italic}
@@ -148,6 +152,7 @@ body {
 	span.emphasis  {font-style: italic}
 	span.strongemphasis,span.listif {font-weight: bold; font-style: italic}
 	em.msgtext {font-weight: bold; font-style: italic}
+	span.checkcell {font-weight: bold; font-size: 150%;}
 
 /* superscript and subscript */	
 	span.subscript,span.superscript {font-size: 80%;}
@@ -159,4 +164,48 @@ body {
 	div.toc div.toc2 {font-weight: normal; margin: 8px 10px 5px 25px}
 	div.toc div.toc3 {font-weight: normal; margin: 5px 10px 2px 50px}
 	div.toc div.toc4 {font-weight: normal; margin: 0px 10px 2px 75px}
+
+/* banners and logos */
+	div.banner { background-image : url(images/banner_bkgd.png); background-repeat: repeat-x;
+		height : 40px; line-height : 40px; margin-top: 30px;
+	}
+	div.banner_logo_netiq { background-image : url(images/banner_logo_netiq.png); background-repeat: no-repeat;
+		position: relative; float: right; top: 5px; width : 98px; height : 30px; line-height : 30px;
+	}
 	
+/* collapsible sections */
+.expanded .collapsible { display: block; }
+.collapsed .collapsible {	display: none; }
+.exp_title { cursor: pointer; }
+.exp_title span { float:left; width:16px; height:15px; margin-right : 3px; margin-top : 2px; }
+.expanded .exp_title span {background-image : url(expanded.png); background-repeat: no-repeat;}
+.collapsed .exp_title span {background-image : url(collapsed.png); background-repeat: no-repeat;}
+
+/* embedded video */
+.video-wrapper {
+	width: 600px;
+	max-width: 100%;
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.videoref {
+    background-image: url('137.65.13.71/documentation/docui_a/images/ui/video.png');
+    background-repeat:no-repeat;
+    padding: 5px 0px 5px 28px;
+}
+

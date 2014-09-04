@@ -1,1 +1,2 @@
-var hIdMap = new Object();
+var hIdMap = {
+};

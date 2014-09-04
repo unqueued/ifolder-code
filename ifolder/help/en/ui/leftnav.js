@@ -155,7 +155,6 @@ dom_getEl(document,"searchContent").innerHTML="<div class='entry0'>Search not av
 }
 }
 function doSearch(){
-dom_getEl(document,"searchContent").innerHTML="<p>&nbsp;&nbsp;Searching...</p>";
 self.setTimeout("doTheSearch()",1);
 }
 function getTabWidth(){
@@ -166,6 +165,7 @@ return (_28?_28.scrollWidth:0)+(_29?_29.scrollWidth:0)+(_2a?_2a.scrollWidth:0);
 }
 function onPageLoad(){
 initToc();
+TocUpdateFromTopic();
 dom_getEl(document,"toctab").innerHTML=RES_CONTENTS_STR;
 if(CFG_HAS_SEARCH){
 dom_getEl(document,"searchtab").innerHTML=RES_SEARCH_STR;

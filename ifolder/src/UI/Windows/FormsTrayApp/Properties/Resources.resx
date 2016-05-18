@@ -280,7 +280,7 @@
     <value>Cannot share iFolder</value>
   </data>
   <data name="exitMessage" xml:space="preserve">
-    <value>If you exit the Novell iFolder application, changes in your iFolder will no longer be tracked. The next ime you login, Novell iFolder will reconcile any differences between your iFolder and Server</value>
+    <value>If you exit the iFolder application, changes in your iFolder will no longer be tracked. The next ime you login, iFolder will reconcile any differences between your iFolder and Server</value>
   </data>
   <data name="exitTitle" xml:space="preserve">
     <value>Exit Application</value>

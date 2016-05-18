@@ -1509,8 +1509,8 @@ msgid "Other Contributors:"
 msgstr "Andere Beiträge:"
 
 #: src/LinuxClient/library/Util.cs:231
-msgid "Copyright (C) 2008 Novell, Inc."
-msgstr "Copyright (C) 2008 Novell, Inc."
+msgid "Copyright (C) 2016 Novell, Inc., a Micro Focus company"
+msgstr "Copyright (C) 2016 Novell, Inc., a Micro Focus company"
 
 #: src/LinuxClient/library/Util.cs:232
 msgid "The iFolder Project is a file sharing solution that allows people to easily share folders or files of any type with other users, whether they use the same or different operating system. This project is built on the mono/.NET framework to integrate seamlessly into existing desktop environments."
@@ -2486,14 +2486,14 @@ msgstr "Die Eingabe des Passwortsatzes wurde abgebrochen."
 msgid "Entering password is cancelled"
 msgstr "Die Eingabe des Passworts wurde abgebrochen"
 
-msgid "Exit Novell iFolder"
-msgstr "Novell iFolder beenden"
+msgid "Exit iFolder"
+msgstr "iFolder beenden"
 
-msgid "If you exit the Novell iFolder application, changes in your iFolder will no longer be tracked.\nThe next time you login, Novell iFolder will reconcile any differences between your iFolder and Server.\n\nAre you sure you want to exit the Application ?"
-msgstr "Wenn Sie die Novell iFolder-Anwendung beenden, werden Änderungen in Ihrem iFolder-Ordner nicht mehr verfolgt.\nBei der nächsten Anmeldung stimmt Novell iFolder sämtliche Abweichungen zwischen Ihrem iFolder-Ordner und dem Server ab.\n\nSind Sie sicher, dass die Anwendung beendet werden soll?"
+msgid "If you exit the iFolder application, changes in your iFolder will no longer be tracked.\nThe next time you login, iFolder will reconcile any differences between your iFolder and Server.\n\nAre you sure you want to exit the Application ?"
+msgstr "Wenn Sie die iFolder-Anwendung beenden, werden Änderungen in Ihrem iFolder-Ordner nicht mehr verfolgt.\nBei der nächsten Anmeldung stimmt iFolder sämtliche Abweichungen zwischen Ihrem iFolder-Ordner und dem Server ab.\n\nSind Sie sicher, dass die Anwendung beendet werden soll?"
 
-msgid "Novell iFolder does not currently support this machine's Network card to detect Network events. DBus failed to initialize for the Network card."
-msgstr "Die Erkennung von Netzwerkereignissen durch die Netzwerkkarte dieses Computers wird derzeit von Novell iFolder nicht unterstützt. Der Initialisierungsvorgang für die Netzwerkkarte konnte von DBus nicht durchgeführt werden."
+msgid "iFolder does not currently support this machine's Network card to detect Network events. DBus failed to initialize for the Network card."
+msgstr "Die Erkennung von Netzwerkereignissen durch die Netzwerkkarte dieses Computers wird derzeit von iFolder nicht unterstützt. Der Initialisierungsvorgang für die Netzwerkkarte konnte von DBus nicht durchgeführt werden."
 
 msgid "Network Events"
 msgstr "Netzwerkereignisse"

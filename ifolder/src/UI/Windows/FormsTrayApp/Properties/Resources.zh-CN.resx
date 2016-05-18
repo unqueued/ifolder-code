@@ -343,7 +343,7 @@
     <value>未提供通行口令</value>
   </data>
   <data name="exitMessage" xml:space="preserve">
-    <value>如果您退出 Novell iFolder 应用程序，则将不再跟踪您的 iFolder 中所做的更改。当您下次登录时，Novell iFolder 将协调您的 iFolder 与服务器之间的所有差异</value>
+    <value>如果您退出 iFolder 应用程序，则将不再跟踪您的 iFolder 中所做的更改。当您下次登录时， iFolder 将协调您的 iFolder 与服务器之间的所有差异</value>
   </data>
   <data name="encrypted" xml:space="preserve">
     <value>已加密</value>

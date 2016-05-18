@@ -343,7 +343,7 @@
     <value>Prístupový výraz nie je k dispozícii</value>
   </data>
   <data name="exitMessage" xml:space="preserve">
-    <value>Ak ukončíte aplikáciu Novell iFolder, sledovanie zmien v priečinku iFolder sa ukončí. Pri nasledujúcom prihlásení aplikácia Novell iFolder zosúladí všetky rozdiely medzi vaším priečinkom iFolder a serverom</value>
+    <value>Ak ukončíte aplikáciu iFolder, sledovanie zmien v priečinku iFolder sa ukončí. Pri nasledujúcom prihlásení aplikácia iFolder zosúladí všetky rozdiely medzi vaším priečinkom iFolder a serverom</value>
   </data>
   <data name="encrypted" xml:space="preserve">
     <value>Šifrované</value>

@@ -343,7 +343,7 @@
     <value>Passwortsatz nicht vorhanden</value>
   </data>
   <data name="exitMessage" xml:space="preserve">
-    <value>Wenn Sie die Anwendung Novell iFolder beenden, werden die Änderungen an Ihrem IFolder-Ordner nicht mehr aufgezeichnet. Bei der nächsten Anmeldung gleicht Novell iFolder alle Unterschiede zwischen Ihrem IFolder-Ordner und dem Server ab.</value>
+    <value>Wenn Sie die Anwendung iFolder beenden, werden die Änderungen an Ihrem IFolder-Ordner nicht mehr aufgezeichnet. Bei der nächsten Anmeldung gleicht iFolder alle Unterschiede zwischen Ihrem IFolder-Ordner und dem Server ab.</value>
   </data>
   <data name="encrypted" xml:space="preserve">
     <value>Verschlüsselt</value>

@@ -343,7 +343,7 @@
     <value>Ключевая фраза не указана</value>
   </data>
   <data name="exitMessage" xml:space="preserve">
-    <value>При выходе из приложения Novell iFolder изменения, вносимые в папку iFolder, более не будут отслеживаться. При следующем входе в систему Novell iFolder согласует все различия между вашей папкой iFolder и сервером.</value>
+    <value>При выходе из приложения iFolder изменения, вносимые в папку iFolder, более не будут отслеживаться. При следующем входе в систему iFolder согласует все различия между вашей папкой iFolder и сервером.</value>
   </data>
   <data name="encrypted" xml:space="preserve">
     <value>Зашифрованный</value>

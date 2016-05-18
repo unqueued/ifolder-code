@@ -163,7 +163,7 @@
     <value>Beschreibung...</value>
   </data>
   <data name="exitTitle">
-    <value>Novell iFolder beenden</value>
+    <value>iFolder beenden</value>
   </data>
   <data name="menuEventLogReader.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -686,8 +686,8 @@
     <value>True</value>
   </data>
   <data name="exitMessage">
-    <value>Wenn Sie die Anwendung Novell iFolder beenden, werden die Änderungen an Ihrem IFolder nicht mehr aufgezeichnet.
-Bei der nächsten Anmeldung gleicht Novell iFolder alle Unterschiede zwischen Ihrem IFolder und dem Server ab.
+    <value>Wenn Sie die Anwendung iFolder beenden, werden die Änderungen an Ihrem IFolder nicht mehr aufgezeichnet.
+Bei der nächsten Anmeldung gleicht iFolder alle Unterschiede zwischen Ihrem IFolder und dem Server ab.
 
 Möchten Sie die Anwendung wirklich beenden?</value>
   </data>

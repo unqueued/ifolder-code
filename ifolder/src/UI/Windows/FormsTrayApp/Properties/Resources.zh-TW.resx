@@ -343,7 +343,7 @@
     <value>未提供密碼片語</value>
   </data>
   <data name="exitMessage" xml:space="preserve">
-    <value>如果您離開 Novell iFolder 應用程式，將不再追蹤您 iFolder 中的變更。當您下次登入時，Novell iFolder 將使您的 iFolder 與伺服器間的任何差異趨於一致</value>
+    <value>如果您離開 iFolder 應用程式，將不再追蹤您 iFolder 中的變更。當您下次登入時， iFolder 將使您的 iFolder 與伺服器間的任何差異趨於一致</value>
   </data>
   <data name="encrypted" xml:space="preserve">
     <value>已加密</value>

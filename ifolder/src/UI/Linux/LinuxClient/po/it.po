@@ -1506,8 +1506,8 @@ msgid "Other Contributors:"
 msgstr "Altri collaboratori:"
 
 #: src/LinuxClient/library/Util.cs:231
-msgid "Copyright (C) 2008 Novell, Inc."
-msgstr "Copyright (C) 2008 Novell, Inc."
+msgid "Copyright (C) 2016 Novell, Inc., a Micro Focus company"
+msgstr "Copyright (C) 2016 Novell, Inc., a Micro Focus company"
 
 #: src/LinuxClient/library/Util.cs:232
 msgid "The iFolder Project is a file sharing solution that allows people to easily share folders or files of any type with other users, whether they use the same or different operating system. This project is built on the mono/.NET framework to integrate seamlessly into existing desktop environments."
@@ -2483,14 +2483,14 @@ msgstr "Immissione delle stringa di cifratura annullata."
 msgid "Entering password is cancelled"
 msgstr "Immissione della password annullata."
 
-msgid "Exit Novell iFolder"
-msgstr "Esci da Novell iFolder"
+msgid "Exit iFolder"
+msgstr "Esci da iFolder"
 
-msgid "If you exit the Novell iFolder application, changes in your iFolder will no longer be tracked.\nThe next time you login, Novell iFolder will reconcile any differences between your iFolder and Server.\n\nAre you sure you want to exit the Application ?"
-msgstr "Se si esce dall'applicazione Novell iFolder, non sarà possibile tenere traccia delle modifiche apportate nella cartella iFolder\nAl successivo login, Novell iFolder risolverà le eventuali differenze tra la cartella iFolder e il server.\n\nUscire dall'applicazione?"
+msgid "If you exit the iFolder application, changes in your iFolder will no longer be tracked.\nThe next time you login, iFolder will reconcile any differences between your iFolder and Server.\n\nAre you sure you want to exit the Application ?"
+msgstr "Se si esce dall'applicazione iFolder, non sarà possibile tenere traccia delle modifiche apportate nella cartella iFolder\nAl successivo login, iFolder risolverà le eventuali differenze tra la cartella iFolder e il server.\n\nUscire dall'applicazione?"
 
-msgid "Novell iFolder does not currently support this machine's Network card to detect Network events. DBus failed to initialize for the Network card."
-msgstr "Novell iFolder non supporta la scheda di rete attualmente installata nel computer per il rilevamento degli eventi di rete. Inizializzazione di DBus non riuscita per la scheda di rete."
+msgid "iFolder does not currently support this machine's Network card to detect Network events. DBus failed to initialize for the Network card."
+msgstr "iFolder non supporta la scheda di rete attualmente installata nel computer per il rilevamento degli eventi di rete. Inizializzazione di DBus non riuscita per la scheda di rete."
 
 msgid "Network Events"
 msgstr "Eventi di rete"

@@ -343,7 +343,7 @@
     <value>パスフレーズが指定されていません</value>
   </data>
   <data name="exitMessage" xml:space="preserve">
-    <value>Novell iFolderアプリケーションを終了すると、iFolderで行った変更は追跡されません。次のログイン時にNovell iFolderによって、iFolderとサーバ間の相違が調整されます</value>
+    <value>iFolderアプリケーションを終了すると、iFolderで行った変更は追跡されません。次のログイン時に iFolderによって、iFolderとサーバ間の相違が調整されます</value>
   </data>
   <data name="encrypted" xml:space="preserve">
     <value>暗号化</value>

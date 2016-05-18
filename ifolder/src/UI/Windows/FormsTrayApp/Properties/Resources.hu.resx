@@ -343,7 +343,7 @@
     <value>Nincs hozzáférési kód megadva</value>
   </data>
   <data name="exitMessage" xml:space="preserve">
-    <value>Ha kilép a Novell iFolder alkalmazásból, az iFolder mappájában végrehajtott változások követése megszűnik. A következő bejelentkezéskor a Novell iFolder egyezteti a különbségeket az iFolder mappa és a kiszolgáló között.</value>
+    <value>Ha kilép a iFolder alkalmazásból, az iFolder mappájában végrehajtott változások követése megszűnik. A következő bejelentkezéskor a iFolder egyezteti a különbségeket az iFolder mappa és a kiszolgáló között.</value>
   </data>
   <data name="encrypted" xml:space="preserve">
     <value>Titkosított</value>

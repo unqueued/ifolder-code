@@ -163,7 +163,7 @@
     <value>Popis...</value>
   </data>
   <data name="exitTitle">
-    <value>Ukončiť prácu s priečinkom Novell iFolder</value>
+    <value>Ukončiť prácu s priečinkom iFolder</value>
   </data>
   <data name="menuEventLogReader.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -686,8 +686,8 @@
     <value>True</value>
   </data>
   <data name="exitMessage">
-    <value>Ak ukončíte aplikáciu priečinka Novell iFolder, sledovanie zmien v priečinku iFolder sa ukončí.
-Pri nasledujúcom prihlásení, priečinok Novell iFolder zosúladí všetky rozdiely medzi vaším priečinkom iFolder a Serverom.
+    <value>Ak ukončíte aplikáciu priečinka iFolder, sledovanie zmien v priečinku iFolder sa ukončí.
+Pri nasledujúcom prihlásení, priečinok iFolder zosúladí všetky rozdiely medzi vaším priečinkom iFolder a Serverom.
 
 Naozaj chcete ukončiť aplikáciu ?</value>
   </data>

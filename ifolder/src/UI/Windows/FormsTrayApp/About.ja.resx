@@ -461,7 +461,7 @@
     <value />
   </data>
   <data name="label2.Text">
-    <value>Novell iFolderプロジェクトはワークグループ環境のための、ファイル共有ソリューションです。プロジェクトはmono/.Netフレームワークで構築されており、既存のデスクトップ環境にシームレスに統合されます。</value>
+    <value>iFolderプロジェクトはワークグループ環境のための、ファイル共有ソリューションです。プロジェクトはmono/.Netフレームワークで構築されており、既存のデスクトップ環境にシームレスに統合されます。</value>
   </data>
   <data name="pictureBox1.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value />

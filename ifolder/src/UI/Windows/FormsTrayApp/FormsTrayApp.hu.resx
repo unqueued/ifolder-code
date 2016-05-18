@@ -163,7 +163,7 @@
     <value>Leírás...</value>
   </data>
   <data name="exitTitle">
-    <value>Kilépés a Novell iFolder alkalmazásból</value>
+    <value>Kilépés a iFolder alkalmazásból</value>
   </data>
   <data name="menuEventLogReader.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -686,8 +686,8 @@
     <value>True</value>
   </data>
   <data name="exitMessage">
-    <value>Ha kilép a Novell iFolder alkalmazásból, megszűnik az iFolder könyvtárban beálló változások nyomon követése.
-A következő bejelentkezés alkalmával a Novell iFolder egyezteti az iFolder és a kiszolgáló között esetleg bekövetkező eltéréseket.
+    <value>Ha kilép a iFolder alkalmazásból, megszűnik az iFolder könyvtárban beálló változások nyomon követése.
+A következő bejelentkezés alkalmával a iFolder egyezteti az iFolder és a kiszolgáló között esetleg bekövetkező eltéréseket.
 
 Biztosan kilép az alkalmazásból?</value>
   </data>

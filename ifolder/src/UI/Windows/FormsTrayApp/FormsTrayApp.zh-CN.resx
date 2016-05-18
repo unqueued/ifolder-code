@@ -163,7 +163,7 @@
     <value>说明...</value>
   </data>
   <data name="exitTitle">
-    <value>退出 Novell iFolder</value>
+    <value>退出 iFolder</value>
   </data>
   <data name="menuEventLogReader.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -686,8 +686,8 @@
     <value>True</value>
   </data>
   <data name="exitMessage">
-    <value>如果退出 Novell iFolder 应用程序，将不再对 iFolder 中的更改进行跟踪。
-下次登录时，Novell iFolder 会调解您的 iFolder 与服务器之间的所有差异。
+    <value>如果退出 iFolder 应用程序，将不再对 iFolder 中的更改进行跟踪。
+下次登录时，iFolder 会调解您的 iFolder 与服务器之间的所有差异。
 
 是否确实要退出该应用程序？ ?</value>
   </data>

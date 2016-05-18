@@ -1551,8 +1551,8 @@ msgid "Other Contributors:"
 msgstr ""
 
 #: src/LinuxClient/library/Util.cs:231
-msgid "Copyright (C) 2004-2009 Novell, Inc."
-msgstr "Copyright (C) 2004-2009 Novell, Inc."
+msgid "Copyright (C) 2016 Novell, Inc., a Micro Focus company"
+msgstr "Copyright (C) 2016 Novell, Inc., a Micro Focus company"
 
 #: src/LinuxClient/library/Util.cs:232
 msgid ""

@@ -1734,8 +1734,8 @@ msgid "Other Contributors:"
 msgstr "Other Contributors:"
 
 #: src/LinuxClient/library/Util.cs:231 
-msgid "Copyright (C) 2008 Novell, Inc."
-msgstr "Copyright (C) 2008 Novell, Inc."
+msgid "Copyright (C) 2016 Novell, Inc., a Micro Focus company"
+msgstr "Copyright (C) 2016 Novell, Inc., a Micro Focus company"
 
 #: src/LinuxClient/library/Util.cs:232 
 msgid ""
@@ -3350,19 +3350,19 @@ msgstr ""
 "Entering password is cancelled"
 
 msgid ""
-"Exit Novell iFolder"
+"Exit iFolder"
 msgstr ""
-"Exit Novell iFolder"
+"Exit iFolder"
 
 msgid  ""
-"If you exit the Novell iFolder application, changes in your iFolder will no longer be tracked.\nThe next time you login, Novell iFolder will reconcile any differences between your iFolder and Server.\n\nAre you sure you want to exit the Application ?"
+"If you exit the iFolder application, changes in your iFolder will no longer be tracked.\nThe next time you login, iFolder will reconcile any differences between your iFolder and Server.\n\nAre you sure you want to exit the Application ?"
 msgstr ""
-"If you exit the Novell iFolder application, changes in your iFolder will no longer be tracked.\nThe next time you login, Novell iFolder will reconcile any differences between your iFolder and Server.\n\nAre you sure you want to exit the Application ?"
+"If you exit the iFolder application, changes in your iFolder will no longer be tracked.\nThe next time you login, iFolder will reconcile any differences between your iFolder and Server.\n\nAre you sure you want to exit the Application ?"
 
 msgid ""
-"Novell iFolder does not currently support this machine's Network card to detect Network events. DBus failed to initialize for the Network card."
+"iFolder does not currently support this machine's Network card to detect Network events. DBus failed to initialize for the Network card."
 msgstr ""
-"Novell iFolder does not currently support this machine's Network card to detect Network events. DBus failed to initialize for the Network card."
+"iFolder does not currently support this machine's Network card to detect Network events. DBus failed to initialize for the Network card."
 
 msgid ""
 "Network Events"

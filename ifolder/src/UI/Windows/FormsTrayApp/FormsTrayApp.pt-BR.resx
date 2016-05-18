@@ -163,7 +163,7 @@
     <value>Descrição...</value>
   </data>
   <data name="exitTitle">
-    <value>Sair do Novell iFolder</value>
+    <value>Sair do iFolder</value>
   </data>
   <data name="menuEventLogReader.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -686,8 +686,8 @@
     <value>True</value>
   </data>
   <data name="exitMessage">
-    <value>Se você sair do aplicativo Novell iFolder, as mudanças no seu iFolder não serão mais monitoradas.
-Na próxima vez em que você efetuar login, o Novell iFolder reconciliará todas as diferenças entre o seu iFolder e o Servidor.
+    <value>Se você sair do aplicativo iFolder, as mudanças no seu iFolder não serão mais monitoradas.
+Na próxima vez em que você efetuar login, o iFolder reconciliará todas as diferenças entre o seu iFolder e o Servidor.
 
 Tem certeza de que deseja sair do Aplicativo?</value>
   </data>

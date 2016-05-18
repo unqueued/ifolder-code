@@ -1104,8 +1104,8 @@ msgstr "Code Contributors:"
 msgid "Other Contributors:"
 msgstr "Other Contributors:"
 #: src/LinuxClient/library/Util.cs:207
-msgid "Copyright (C) 2004-2005 Novell, Inc."
-msgstr "Copyright (C) 1998, Novell Inc."
+msgid "Copyright (C) 2016 Novell, Inc., a Micro Focus company"
+msgstr "Copyright (C) 2016 Novell, Inc., a Micro Focus company"
 #: src/LinuxClient/library/Util.cs:208
 msgid ""
 "The iFolder Project is a file sharing solution that allows people to easily "

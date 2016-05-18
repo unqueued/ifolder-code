@@ -1509,8 +1509,8 @@ msgid "Other Contributors:"
 msgstr "Další přispěvatelé:"
 
 #: src/LinuxClient/library/Util.cs:231
-msgid "Copyright (C) 2008 Novell, Inc."
-msgstr "Copyright (C) 2008 Novell, Inc."
+msgid "Copyright (C) 2016 Novell, Inc., a Micro Focus company"
+msgstr "Copyright (C) 2016 Novell, Inc., a Micro Focus company"
 
 #: src/LinuxClient/library/Util.cs:232
 msgid "The iFolder Project is a file sharing solution that allows people to easily share folders or files of any type with other users, whether they use the same or different operating system. This project is built on the mono/.NET framework to integrate seamlessly into existing desktop environments."
@@ -2486,14 +2486,14 @@ msgstr "Zadávání šifrovací klíč je zrušeno."
 msgid "Entering password is cancelled"
 msgstr "Zadání hesla je zrušeno."
 
-msgid "Exit Novell iFolder"
-msgstr "Ukončit Novell iFolder"
+msgid "Exit iFolder"
+msgstr "Ukončit iFolder"
 
-msgid "If you exit the Novell iFolder application, changes in your iFolder will no longer be tracked.\nThe next time you login, Novell iFolder will reconcile any differences between your iFolder and Server.\n\nAre you sure you want to exit the Application ?"
-msgstr "Pokud ukončíte aplikaci Novell iFolder, změny ve vaší složce iFolder nebudou dále sledovány.\nPři vašem příštím přihlášení aplikace Novell iFolder provede synchronizaci rozdílů mazi vaší složkou iFolder a serverem.\n\nOpravdu chcete aplikaci ukončit?"
+msgid "If you exit the iFolder application, changes in your iFolder will no longer be tracked.\nThe next time you login, iFolder will reconcile any differences between your iFolder and Server.\n\nAre you sure you want to exit the Application ?"
+msgstr "Pokud ukončíte aplikaci iFolder, změny ve vaší složce iFolder nebudou dále sledovány.\nPři vašem příštím přihlášení aplikace iFolder provede synchronizaci rozdílů mazi vaší složkou iFolder a serverem.\n\nOpravdu chcete aplikaci ukončit?"
 
-msgid "Novell iFolder does not currently support this machine's Network card to detect Network events. DBus failed to initialize for the Network card."
-msgstr "Aplikace Novell iFolder aktuálně nepodporuje síťovou kartu ve vašem počítači a nelze zjišťovat síťové události. Inicializace služby DBus se síťovou kartou se nezdařila."
+msgid "iFolder does not currently support this machine's Network card to detect Network events. DBus failed to initialize for the Network card."
+msgstr "Aplikace iFolder aktuálně nepodporuje síťovou kartu ve vašem počítači a nelze zjišťovat síťové události. Inicializace služby DBus se síťovou kartou se nezdařila."
 
 msgid "Network Events"
 msgstr "Síťové události"

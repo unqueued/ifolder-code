@@ -343,7 +343,7 @@
     <value>Šifrovací klíč není zadán.</value>
   </data>
   <data name="exitMessage" xml:space="preserve">
-    <value>Pokud ukončíte aplikaci Novell iFolder, změny ve vaší složce iFolder nebudou nadále sledovány. Až se příště přihlásíte, aplikace Novell iFolder vyrovná případné rozdíly mezi vaší složkou iFolder a serverem.</value>
+    <value>Pokud ukončíte aplikaci iFolder, změny ve vaší složce iFolder nebudou nadále sledovány. Až se příště přihlásíte, aplikace iFolder vyrovná případné rozdíly mezi vaší složkou iFolder a serverem.</value>
   </data>
   <data name="encrypted" xml:space="preserve">
     <value>Zašifrováno</value>

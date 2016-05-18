@@ -343,7 +343,7 @@
     <value>Frase secreta não fornecida</value>
   </data>
   <data name="exitMessage" xml:space="preserve">
-    <value>Se você sair do aplicativo Novell iFolder, as mudanças feitas no iFolder não serão mais monitoradas. Na próxima vez em que você efetuar login, o Novell iFolder reconciliará todas as diferenças entre o iFolder e o Servidor</value>
+    <value>Se você sair do aplicativo iFolder, as mudanças feitas no iFolder não serão mais monitoradas. Na próxima vez em que você efetuar login, o iFolder reconciliará todas as diferenças entre o iFolder e o Servidor</value>
   </data>
   <data name="encrypted" xml:space="preserve">
     <value>Criptografado</value>

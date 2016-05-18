@@ -163,7 +163,7 @@
     <value>Описание...</value>
   </data>
   <data name="exitTitle">
-    <value>Выход из Novell iFolder</value>
+    <value>Выход из iFolder</value>
   </data>
   <data name="menuEventLogReader.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -686,8 +686,8 @@
     <value>True</value>
   </data>
   <data name="exitMessage">
-    <value>При выходе из приложения Novell iFolder изменения папки iFolder больше не будут отслеживаться.
-При следующей регистрации приложение Novell iFolder выполнит согласование любых отличий между папкой iFolder и сервером.
+    <value>При выходе из приложения iFolder изменения папки iFolder больше не будут отслеживаться.
+При следующей регистрации приложение iFolder выполнит согласование любых отличий между папкой iFolder и сервером.
 
 Закрыть приложение?</value>
   </data>

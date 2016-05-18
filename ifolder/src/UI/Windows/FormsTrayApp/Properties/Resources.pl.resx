@@ -343,7 +343,7 @@
     <value>Nie podano zwrotu hasłowego</value>
   </data>
   <data name="exitMessage" xml:space="preserve">
-    <value>Jeśli zakończysz pracę aplikacji Novell iFolder, zmiany w folderze iFolder nie będą już śledzone. Przy następnym zalogowaniu program Novell iFolder uzgodni wszystkie różnice między folderem iFolder a serwerem.</value>
+    <value>Jeśli zakończysz pracę aplikacji iFolder, zmiany w folderze iFolder nie będą już śledzone. Przy następnym zalogowaniu program iFolder uzgodni wszystkie różnice między folderem iFolder a serwerem.</value>
   </data>
   <data name="encrypted" xml:space="preserve">
     <value>Zaszyfrowany</value>

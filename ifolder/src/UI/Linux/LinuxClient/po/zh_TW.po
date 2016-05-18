@@ -1509,8 +1509,8 @@ msgid "Other Contributors:"
 msgstr "其他顧問："
 
 #: src/LinuxClient/library/Util.cs:231
-msgid "Copyright (C) 2008 Novell, Inc."
-msgstr "版權 (C) 2008 Novell, Inc."
+msgid "Copyright (C) 2016 Novell, Inc., a Micro Focus company"
+msgstr "版權 (C) 2016 Novell, Inc., a Micro Focus company"
 
 #: src/LinuxClient/library/Util.cs:232
 msgid "The iFolder Project is a file sharing solution that allows people to easily share folders or files of any type with other users, whether they use the same or different operating system. This project is built on the mono/.NET framework to integrate seamlessly into existing desktop environments."
@@ -2486,14 +2486,14 @@ msgstr "已取消輸入通關密語"
 msgid "Entering password is cancelled"
 msgstr "已取消輸入密碼"
 
-msgid "Exit Novell iFolder"
-msgstr "結束 Novell iFolder"
+msgid "Exit iFolder"
+msgstr "結束 iFolder"
 
-msgid "If you exit the Novell iFolder application, changes in your iFolder will no longer be tracked.\nThe next time you login, Novell iFolder will reconcile any differences between your iFolder and Server.\n\nAre you sure you want to exit the Application ?"
-msgstr "如果您離開 Novell iFolder 應用程式，則您的 iFolder 中的變更將不被追蹤。\n當您下次登入時，Novell iFolder 將使您的 iFolder 與伺服器間的任何差異趨於一致。\n\n您確定要離開應用程式？"
+msgid "If you exit the  iFolder application, changes in your iFolder will no longer be tracked.\nThe next time you login, iFolder will reconcile any differences between your iFolder and Server.\n\nAre you sure you want to exit the Application ?"
+msgstr "如果您離開 iFolder 應用程式，則您的 iFolder 中的變更將不被追蹤。\n當您下次登入時， iFolder 將使您的 iFolder 與伺服器間的任何差異趨於一致。\n\n您確定要離開應用程式？"
 
-msgid "Novell iFolder does not currently support this machine's Network card to detect Network events. DBus failed to initialize for the Network card."
-msgstr "Novell iFolder 目前不支援使用此電腦上的網路卡來偵測網路事件。無法為網路卡初始化 DBus。"
+msgid "iFolder does not currently support this machine's Network card to detect Network events. DBus failed to initialize for the Network card."
+msgstr "iFolder 目前不支援使用此電腦上的網路卡來偵測網路事件。無法為網路卡初始化 DBus。"
 
 msgid "Network Events"
 msgstr "網路事件"

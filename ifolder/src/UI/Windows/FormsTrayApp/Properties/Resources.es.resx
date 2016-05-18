@@ -343,7 +343,7 @@
     <value>Contraseña codificada no proporcionada</value>
   </data>
   <data name="exitMessage" xml:space="preserve">
-    <value>Si sale de la aplicación iFolder de Novell, dejará de hacerse el seguimiento de los cambios realizados en la carpeta iFolder. La próxima vez que entre, iFolder de Novell reconciliará las diferencias entre la carpeta iFolder y el servidor.</value>
+    <value>Si sale de la aplicación iFolder, dejará de hacerse el seguimiento de los cambios realizados en la carpeta iFolder. La próxima vez que entre, iFolder reconciliará las diferencias entre la carpeta iFolder y el servidor.</value>
   </data>
   <data name="encrypted" xml:space="preserve">
     <value>Cifrado</value>

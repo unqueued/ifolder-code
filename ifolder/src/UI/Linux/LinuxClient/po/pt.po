@@ -1555,8 +1555,8 @@ msgid "Other Contributors:"
 msgstr "Outros Colaboradores:"
 
 #: src/LinuxClient/library/Util.cs:231
-msgid "Copyright (C) 2004-2009 Novell, Inc."
-msgstr "Copyright (C) 2004-2009 Novell, Inc."
+msgid "Copyright (C) 2016 Novell, Inc., a Micro Focus company"
+msgstr "Copyright (C) 2016 Novell, Inc., a Micro Focus company."
 
 #: src/LinuxClient/library/Util.cs:232
 msgid ""
@@ -2688,16 +2688,16 @@ msgid ""
 msgstr "A opção para digitar senha está cancelada"
 
 msgid ""
-"Exit Novell iFolder"
-msgstr "Sair do Novell iFolder"
+"Exit iFolder"
+msgstr "Sair do iFolder"
 
 msgid  ""
-"If you exit the Novell iFolder application, changes in your iFolder will no longer be tracked.\nThe next time you login, Novell iFolder will reconcile any differences between your iFolder and Server.\n\nAre you sure you want to exit the Application ?"
-msgstr "Se você sair do aplicativo Novell iFolder, as mudanças feitas no iFolder não serão mais controladas.\nA próxima vez que efetuar o login, o Novell iFolder reconciliará quaisquer diferenças entre o seu iFolder e o Servidor.\n\nTem certeza de que deseja sair do Aplicativo?"
+"If you exit the iFolder application, changes in your iFolder will no longer be tracked.\nThe next time you login, iFolder will reconcile any differences between your iFolder and Server.\n\nAre you sure you want to exit the Application ?"
+msgstr "Se você sair do aplicativo iFolder, as mudanças feitas no iFolder não serão mais controladas.\nA próxima vez que efetuar o login, o iFolder reconciliará quaisquer diferenças entre o seu iFolder e o Servidor.\n\nTem certeza de que deseja sair do Aplicativo?"
 
 msgid ""
-"Novell iFolder does not currently support this machine's Network card to detect Network events. DBus failed to initialize for the Network card."
-msgstr "O Novell iFolder não suporta atualmente a placa de rede dessa máquina para detectar eventos de rede. O DBus falhou ao inicializar a placa de rede."
+"iFolder does not currently support this machine's Network card to detect Network events. DBus failed to initialize for the Network card."
+msgstr "O iFolder não suporta atualmente a placa de rede dessa máquina para detectar eventos de rede. O DBus falhou ao inicializar a placa de rede."
 
 msgid ""
 "Network Events"

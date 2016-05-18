@@ -343,7 +343,7 @@
     <value>Stringa di cifratura non fornita</value>
   </data>
   <data name="exitMessage" xml:space="preserve">
-    <value>Se si esce dall'applicazione Novell iFolder, le modifiche della cartella iFolder non verranno più tracciate. Al login successivo, Novell iFolder aggiorna tutte le differenze presenti tra la cartella iFolder dell'utente e il server</value>
+    <value>Se si esce dall'applicazione iFolder, le modifiche della cartella iFolder non verranno più tracciate. Al login successivo, iFolder aggiorna tutte le differenze presenti tra la cartella iFolder dell'utente e il server</value>
   </data>
   <data name="encrypted" xml:space="preserve">
     <value>Cifrato</value>

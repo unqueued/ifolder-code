@@ -1509,8 +1509,8 @@ msgid "Other Contributors:"
 msgstr "Inni współpracownicy:"
 
 #: src/LinuxClient/library/Util.cs:231
-msgid "Copyright (C) 2008 Novell, Inc."
-msgstr "Copyright (C) 2008 Novell, Inc."
+msgid "Copyright (C) 2016 Novell, Inc., a Micro Focus company"
+msgstr "Copyright (C) 2016 Novell, Inc., a Micro Focus company"
 
 #: src/LinuxClient/library/Util.cs:232
 msgid "The iFolder Project is a file sharing solution that allows people to easily share folders or files of any type with other users, whether they use the same or different operating system. This project is built on the mono/.NET framework to integrate seamlessly into existing desktop environments."
@@ -2486,14 +2486,14 @@ msgstr "Wprowadzanie zwrotu hasłowego zostało anulowane"
 msgid "Entering password is cancelled"
 msgstr "Wprowadzanie hasła zostało anulowane"
 
-msgid "Exit Novell iFolder"
-msgstr "Zamknij program Novell iFolder"
+msgid "Exit iFolder"
+msgstr "Zamknij program iFolder"
 
-msgid "If you exit the Novell iFolder application, changes in your iFolder will no longer be tracked.\nThe next time you login, Novell iFolder will reconcile any differences between your iFolder and Server.\n\nAre you sure you want to exit the Application ?"
-msgstr "Jeżeli zamkniesz aplikację Novell iFolder, zmiany w programie iFolder nie będą śledzone.\nPo następnym zalogowaniu się do programu, uzgodnione zostaną wszelkie różnice między lokalnym programem iFolder a serwerem.\n\nCzy na pewno chcesz zamknąć aplikację?"
+msgid "If you exit the iFolder application, changes in your iFolder will no longer be tracked.\nThe next time you login, iFolder will reconcile any differences between your iFolder and Server.\n\nAre you sure you want to exit the Application ?"
+msgstr "Jeżeli zamkniesz aplikację iFolder, zmiany w programie iFolder nie będą śledzone.\nPo następnym zalogowaniu się do programu, uzgodnione zostaną wszelkie różnice między lokalnym programem iFolder a serwerem.\n\nCzy na pewno chcesz zamknąć aplikację?"
 
-msgid "Novell iFolder does not currently support this machine's Network card to detect Network events. DBus failed to initialize for the Network card."
-msgstr "Program Novell iFolder nie obsługuje obecnie karty sieciowej tego komputera w zakresie wykrywania zdarzeń sieciowych. Nie można zainicjować systemu DBus dla karty sieciowej."
+msgid "iFolder does not currently support this machine's Network card to detect Network events. DBus failed to initialize for the Network card."
+msgstr "Program iFolder nie obsługuje obecnie karty sieciowej tego komputera w zakresie wykrywania zdarzeń sieciowych. Nie można zainicjować systemu DBus dla karty sieciowej."
 
 msgid "Network Events"
 msgstr "Zdarzenia sieciowe"

@@ -265,7 +265,7 @@
 "If the problem persists, please contact your network administrator." = "If the problem persists, please contact your network administrator.";
 
 /* Quit Application Message */
-"If you exit the Novell iFolder application, changes in your iFolder will no longer be tracked. The next time you login, Novell iFolder will reconcile any differences between your iFolder and Server.\n\nAre you sure you want to exit the Application?" = "If you exit the Novell iFolder application, changes in your iFolder will no longer be tracked. The next time you login, Novell iFolder will reconcile any differences between your iFolder and Server.\n\nAre you sure you want to exit the Application?";
+"If you exit the iFolder application, changes in your iFolder will no longer be tracked. The next time you login, iFolder will reconcile any differences between your iFolder and Server.\n\nAre you sure you want to exit the Application?" = "If you exit the iFolder application, changes in your iFolder will no longer be tracked. The next time you login, iFolder will reconcile any differences between your iFolder and Server.\n\nAre you sure you want to exit the Application?";
 
 /* Accept Certificate Message */
 "iFolder cannot verify the identity of the iFolder Server \"%@\"." = "iFolder cannot verify the identity of the iFolder Server \"%@\".";

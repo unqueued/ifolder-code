@@ -91,7 +91,7 @@ namespace Novell.iFolder
                         l.Yalign = 0;
                         vbox2.PackStart(l, false, false, 0);
 
-                        l = new Label(Util.GS("Novell iFolder does not currently support this machine's Network card to detect Network events. DBus failed to initialize for the Network card."));
+                        l = new Label(Util.GS("iFolder does not currently support this machine's Network card to detect Network events. DBus failed to initialize for the Network card."));
                         l.LineWrap = true;
                         l.Xalign = 0;
                         vbox2.PackStart(l, true, true, 0);

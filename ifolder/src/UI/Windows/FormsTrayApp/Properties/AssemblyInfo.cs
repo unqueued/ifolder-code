@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Novell iFolder Windows Client")]
+[assembly: AssemblyTitle("Micro Focus iFolder Windows Client")]
 [assembly: AssemblyDescription("Windows client")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Novell Inc")]
-[assembly: AssemblyProduct("Novell iFolder")]
+[assembly: AssemblyProduct("Micro Focus iFolder")]
 [assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("iFolder")]
 [assembly: AssemblyCulture("")]
@@ -29,5 +29,5 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("3.9.2.0")]
-[assembly: AssemblyFileVersion("3.9.2.0")]
+[assembly: AssemblyVersion("3.9.2.1")]
+[assembly: AssemblyFileVersion("3.9.2.1")]

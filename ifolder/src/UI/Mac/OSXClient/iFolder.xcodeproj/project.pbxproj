@@ -121,6 +121,8 @@
 		3EEA9A6B07B1DC4F0015FCF4 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EEA9A6907B1DC4F0015FCF4 /* User.m */; };
 		3EF2212F07681AA400EE2EF6 /* LoginWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = 3EF2212D07681AA400EE2EF6 /* LoginWindow.nib */; };
 		3EF97A7D07DF77E100BA8880 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3EF97A7B07DF77E100BA8880 /* Localizable.strings */; };
+		46C9E5011D2275B6007D53EA /* iFolder 3.sh in Resources */ = {isa = PBXBuildFile; fileRef = 46C9E5001D2275B6007D53EA /* iFolder 3.sh */; };
+		46C9E5021D2275C0007D53EA /* iFolder 3.sh in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46C9E5001D2275B6007D53EA /* iFolder 3.sh */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -161,6 +163,19 @@
 		B2FA8F3F0DDC1516000D86AE /* ifolder-conflict22.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FA8F3E0DDC1516000D86AE /* ifolder-conflict22.png */; };
 		F0D17BBC11AB8E6E00BDCF9C /* NotificationPrefsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D17BBB11AB8E6E00BDCF9C /* NotificationPrefsController.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		46C9E4FD1D22756D007D53EA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				46C9E5021D2275C0007D53EA /* iFolder 3.sh in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
@@ -285,6 +300,7 @@
 		3EEA9A4A07B1D9C30015FCF4 /* PropSharingController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PropSharingController.h; path = src/PropSharingController.h; sourceTree = "<group>"; };
 		3EEA9A6807B1DC4F0015FCF4 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = src/User.h; sourceTree = "<group>"; };
 		3EEA9A6907B1DC4F0015FCF4 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = src/User.m; sourceTree = "<group>"; };
+		46C9E5001D2275B6007D53EA /* iFolder 3.sh */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.sh; path = "iFolder 3.sh"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* iFolder 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iFolder 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B207D1280FD68A9D0088CABD /* ifolder-download32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ifolder-download32.png"; path = "../../../images/ifolder-download32.png"; sourceTree = SOURCE_ROOT; };
@@ -619,6 +635,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				46C9E5001D2275B6007D53EA /* iFolder 3.sh */,
 				B207D1280FD68A9D0088CABD /* ifolder-download32.png */,
 				B20E50D90EA4B59800C52650 /* encrypt-ilock-48.png */,
 				B20E50DA0EA4B59800C52650 /* ifolder_user_48.png */,
@@ -852,6 +869,7 @@
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
+				46C9E4FD1D22756D007D53EA /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -999,6 +1017,7 @@
 				B20E50E70EA4B59800C52650 /* ifolder-warning48.png in Resources */,
 				B20E50E80EA4B59800C52650 /* ifolder48.png in Resources */,
 				B207D1290FD68A9D0088CABD /* ifolder-download32.png in Resources */,
+				46C9E5011D2275B6007D53EA /* iFolder 3.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

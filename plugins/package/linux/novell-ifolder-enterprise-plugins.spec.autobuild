@@ -18,7 +18,7 @@
 
 Name:           novell-ifolder-enterprise-plugins
 
-BuildRequires:  e2fsprogs e2fsprogs-devel gcc-c++ glib2 glib2-devel libflaim libflaim-devel libxml2 libxml2-devel novell-NLDAPbase novell-NLDAPsdk-devel pkgconfig gtk-sharp2 glib-sharp2 ifolder3-enterprise apache2-mod_mono-addon mono-addon-core mono-addon-data mono-addon-devel mono-addon-web
+BuildRequires:  e2fsprogs e2fsprogs-devel gcc-c++ glib2 glib2-devel libflaim libflaim-devel libxml2 libxml2-devel novell-NLDAPbase novell-NLDAPsdk-devel pkgconfig gtk-sharp2 glib-sharp2 ifolder3-enterprise apache2-mod_mono mono-core mono-data mono-devel mono-web
 
 %if %suse_version <= 1100
 BuildRequires:  compat-libstdc++ libstdc++ libstdc++-devel
@@ -41,7 +41,7 @@ License:        GNU General Public License (GPL) v2
 Group:          Productivity/Networking/Novell
 Autoreqprov:    on
 Requires:       ifolder3-enterprise >= 3.9.1
-Requires:       mono-addon-core >= 2.6.7
+Requires:       mono-core >= 2.6.7
 #Obsoletes:      %{name} < %{version}
 Version:        3.9.1.@@BUILDNUM@@.1
 Release:        2
@@ -62,8 +62,6 @@ export BUILDNUM=%{buildnum}
 export EDIR_INCLUDE=/opt/novell/eDirectory/include
 export EDIR_LIBDIR=/opt/novell/eDirectory/%_lib
 export LIBDIR=%_lib
-[ -f /opt/novell/mono/bin/mono-addon-environment.sh ] && \
-	source /opt/novell/mono/bin/mono-addon-environment.sh
 export MONO_PATH=/usr/lib/mono/log4net/:$MONO_PATH
 ./autogen.sh --prefix=%{prefix} #--with-runasclient
 make MONO_PATH=$MONO_PATH
@@ -73,8 +71,6 @@ make MONO_PATH=$MONO_PATH
 %install
 export BUILDNUM=%{buildnum}
 %{__rm} -rf $RPM_BUILD_ROOT
-[ -f /opt/novell/mono/bin/mono-addon-environment.sh ] && \
-	source /opt/novell/mono/bin/mono-addon-environment.sh
 export MONO_PATH=/usr/lib/mono/log4net/:$MONO_PATH
 make DESTDIR=$RPM_BUILD_ROOT MONO_PATH=$MONO_PATH install
 #=============================================================================
